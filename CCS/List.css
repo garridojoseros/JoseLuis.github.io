@@ -5,9 +5,9 @@ body
 {
 
 
-    background-image: url(../Imagenes/luna.jpg);
     
-    color:aqua
+    
+    color:aqua;
 }
 
 
@@ -17,21 +17,19 @@ body
 h3
 {
         color:red;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 32px;
+       
 
-        background-image: url(../Imagenes/lobo.jpg);
+        
 }
 
-li
+p
 
 
 {
 
         color:blue;
-        font-weight: bold; /*negrita*/
-        font-style: italic; /*cursiva*/
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+        
         
         
         
@@ -64,5 +62,5 @@ h1
 
 
 
-        color:yellow
+        color:rgb(12, 12, 11)
 }
