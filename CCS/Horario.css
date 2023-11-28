@@ -1,0 +1,253 @@
+table,th {
+  
+  height: 4em;
+  width: 70em;
+
+}
+#tabla{
+  margin: auto;
+  box-shadow: 7px 13px 60px;
+}
+
+
+
+table,tr,th,td {
+
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
+tr:nth-of-type(1) > th {
+
+  background-color: rgb(107, 83, 129);
+
+
+
+}
+
+
+ td[colspan] {
+
+  text-align:center ;
+  background-color:aquamarine;
+  font-weight: bold;
+
+
+}
+
+
+tr:nth-of-type(2) > th,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(4) > th,
+tr:nth-of-type(5) > th,
+tr:nth-of-type(6) > th,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th {
+  background-color: greenyellow;
+  
+
+}
+
+
+.Campaña {
+
+text-decoration: underline;
+text-align: center;
+background-color: brown;
+font-weight: bold;
+font-size: 15px;
+}
+
+.Tut-Alum {
+
+  text-decoration: underline;
+  text-align: center;
+  background-color: chocolate;
+  font-weight: bold;
+  font-size: 15px;
+  }
+
+.smx-m12sinte {
+
+  text-decoration: underline;
+  text-align: center;
+  background-color: palevioletred;
+  font-weight: bold;  
+  font-size: 15px;
+  }
+
+ .c {
+
+  text-align: center;
+  background-color: black;
+  font-weight: bold;    
+  font-size: 15px;
+  }
+    
+ .smx-m07 {
+
+
+  text-decoration: underline;
+  text-align: center;
+  background-color:gold;
+  font-weight: bold;
+  font-size: 15px;
+
+
+
+  }
+
+  .smx-m08 {
+
+  text-decoration: underline;
+  text-align: center;
+  background-color:green;
+  font-weight: bold;
+  font-size: 15px;
+
+
+
+  }
+
+  .smx-m06 {
+
+  text-decoration: underline;
+  text-align: center;
+  background-color:violet;
+  font-weight: bold;
+  font-size: 15px;
+  
+
+
+  }
+  .largo {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 20px;
+  
+  
+  
+    }
+
+  .smx-2C {
+
+
+    
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgb(3, 3, 44);
+
+
+
+  }
+
+   .contenedor {
+    margin:0;
+    min-height: 100vh;
+    background-image: url(https://a1.eestatic.com/cronicaglobal/2015/03/27/vida/vida_21259235_3432424_1706x960.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color:rgba(2, 6, 2, 0.75)
+    
+    
+    
+
+
+
+    }
+
+
+    .todo {
+    
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+
+    
+    }
+
+
+    body {
+      
+    
+    min-height: 100vh;
+    background-image: url(https://a1.eestatic.com/cronicaglobal/2015/03/27/vida/vida_21259235_3432424_1706x960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+
+
+    }
+
+
+    .proven {
+
+      text-align: center;
+      text-decoration-style: double;
+      font-size: 50px;
+
+
+    }
+
+
+
+    .index {
+
+      text-align: center;
+      font-size: 50px;
+      color: black;
+
+    
+      
+    }
+
+
+    .enlace1 {
+
+      
+      color: black;
+
+
+    }
+
+
+    
+
+
+  
+    
+  
+
+
+
+  
+
+    
+
+    
+
+  
+
+
+
+
+
+
+
+ 
+
+    
