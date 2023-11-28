@@ -2,11 +2,13 @@ table,th {
   
   height: 4em;
   width: 70em;
+  margin: auto;
 
 }
 #tabla{
-  margin: auto;
+
   box-shadow: 7px 13px 60px;
+  
 }
 
 
@@ -138,7 +140,7 @@ font-size: 15px;
 
 
     
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 4px;
     color: rgb(3, 3, 44);
@@ -157,6 +159,7 @@ font-size: 15px;
     background-attachment: fixed;
     text-align: center;
     background-color:rgba(2, 6, 2, 0.75)
+    
     
     
     
@@ -197,8 +200,7 @@ font-size: 15px;
     .proven {
 
       text-align: center;
-      text-decoration-style: double;
-      font-size: 50px;
+      font-size: 40px;
 
 
     }
