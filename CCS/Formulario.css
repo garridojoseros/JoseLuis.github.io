@@ -1,11 +1,13 @@
 .body {
 
   font-family: sans-serif;
-  height: 8em;
-  width: 120em;
-  margin:auto;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
   background:url(https://static.vecteezy.com/system/resources/thumbnails/007/009/116/small_2x/texture-of-white-hard-plastic-abstract-background-free-photo.jpg);
   background-size: cover;
+  
+
  
   
 
@@ -13,13 +15,14 @@
 
 
 .centrar {
-width: 600px;
-height: 50em;
+ width: 600px;
+ height: 50em;
  margin: 0 auto;
- display: flex;
+ 
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ 
  
 }
 
@@ -31,6 +34,7 @@ height: 50em;
   height: 270px;
   border-color: black;
   box-shadow: 30px 63px 200px;
+  
   
  
   
@@ -136,18 +140,42 @@ fieldset:nth-of-type(4) > legend {
 
  .h1 { 
 
-   font-family:'Times New Roman', Times, serif
+   font-family:'Times New Roman', Times, serif;
    text-align: center;
    font-size: 100px;
 
 
 
  }
+
+ .non {
+
+
+
+  letter-spacing: 20px;
+
+ }
   
 
   
   
+  . {
+
+
+
+    letter-spacing: 20px;
+
   
+  }
+
+  .www {
+
+    padding: 7px 100px;
+    
+
+
+    
+  }
 
 
 
