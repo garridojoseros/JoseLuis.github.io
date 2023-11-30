@@ -3,59 +3,126 @@
 
    <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../CCS/Formulario.css"> 
     <title>FORMULARIO</title>
    </head>
-       <body>
+       <body class="body">
 
-        <form action="../php/form.php">
 
-          <fieldset>
-            <legend>Información Basica:</legend>
-            <br>
-            <label for="">Nombre:</label>
-            <br>
-            <input type="text" id="fname" name="fname" value="">
-            <br>
-            <br>
-            <label for="">Fecha Nacimiento:</label><label for="Nacimiento"></label>
-            <br>
-            <input type="date" id="" name="Nacimiento">
-            <br>
-            <br>
-            <label for="">Altura en centimetros:</label>
-            <br>
-            <input type="number" id="fname" name="fname" value="">
-            <br>
-            <br>
-            <label for="fname">email</label><br>
-            <input type="email">
-          
-            <br>
-          
+        
 
-          
+        
+          <form class="centrar" href="../php/form.php">
+
+            <h1 class="h1">CURRICULUM</h1>
+
+         
+          <fieldset class="informacionbasica">
+           
+            
+            
+              <legend class="info">Información Basica:</legend>
+              
+              <br>
+                <label for="nombre">Nombre:</label>
+              <br>
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre" required>
+              <br>
+              <br>
+                <label for="fechaNacimiento">Fecha Nacimiento:</label>
+              <br>
+                 <input type="date" id="" name="Nacimiento" required>
+              <br>
+              <br>
+                 <label for="">Altura en Centimetros:</label>
+              <br>
+                 <input type="number" id="Altura" name="Altura" required placeholder="173" required min="173" max="300"required>
+              <br>
+              <br>
+                 <label for="fname">Email</label>
+              <br>
+                <input type="email" id="fname" name="fname" required placeholder="tuemail@dominio.com" required>
+              <br>
+              <br>
+
+           
+          <div class="tresd">
+
           </fieldset>
+        
+          <br>
+        
+
+        <fieldset class="nacionalidad">
+          <legend class="nac">Nacionalidad:</legend>
+          <input type="radio" id="espanola" name="nacionalidad" value="espanola" required>
+          <label for="espanola">Española</label>
+          <input type="radio" id="comunitario" name="nacionalidad" value="comunitario" required>
+          <label for="comunitario">Comunitario (UE)</label>
+          <input type="radio" id="noComunitario" name="nacionalidad" value="noComunitario" required>
+          <label for="noComunitario">No Comunitario</label>
+        </fieldset>
+           <br>
+        <fieldset class="Estudios">
+          <legend>Estudios:</legend>
+          <label for="nivelEstudios">Nivel de estudios:</label>
+          <select id="nivelEstudios" name="nivelEstudios" required>
+              <option value="" disabled selected>-- Selecciona una opción --</option>
+              <option value="secundaria">Educación Secundaria Obligatoria</option>
+              <option value="bachillerato">Bachillerato</option>
+              <option value="FPGM">Ciclo Formativo Grado Medio</option>
+              <option value="FPGS">Ciclo Formativo Grado Superior</option>
+              <option value="universidad">Universidad</option>
+              <option value="postgrado">Postgrado</option>
+          </select>
+        </fieldset>
+            <br>
+        <fieldset class="idioma">
+          <legend>Idioma:</legend>
+              <input type="checkbox" id="catalan" name="idioma" value="catalan">
+              <label for="catalan">Catalán</label>
+              <input type="checkbox" id="castellano" name="idioma" value="castellano">
+              <label for="castellano">Castellano</label>
+              <input type="checkbox" id="ingles" name="idioma" value="ingles">
+              <label for="ingles">Inglés</label>
+              <input type="checkbox" id="chino" name="idioma" value="chino">
+              <label for="chino">Chino</label>
+        </fieldset>
+             <br>
+
+              
+             <fieldset class="botones">
+
+             
+
+              <input class="bot color" type="submit" value="Enviar">
+              <button class="boto colorboto" type="button" onclick="cancelar()">Cancelar</button>
+             
+
+              <script>
+                   function cancelar() {
+                   alert('Formulario cancelado');
+                   }
+               </script>
+
+
+
+
+
+             </fieldset>
+
+
+
+
+          </div>
+
+
+
+
+
+                
 
         </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

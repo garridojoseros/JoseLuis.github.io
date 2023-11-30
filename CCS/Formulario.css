@@ -1,0 +1,181 @@
+.body {
+
+  font-family: sans-serif;
+  height: 8em;
+  width: 120em;
+  margin:auto;
+  background:url(https://static.vecteezy.com/system/resources/thumbnails/007/009/116/small_2x/texture-of-white-hard-plastic-abstract-background-free-photo.jpg);
+  background-size: cover;
+ 
+  
+
+}
+
+
+.centrar {
+width: 600px;
+height: 50em;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.informacionbasica {
+  background-color:coral;
+  
+  font-weight: bold;
+  width: 700px;
+  height: 270px;
+  border-color: black;
+  box-shadow: 30px 63px 200px;
+  
+ 
+  
+
+
+
+
+}
+
+.nacionalidad {
+
+  background-color:greenyellow;
+  
+  font-weight: bold;
+  width: 700px;
+  height: 40px;
+  border-color: black;
+  box-shadow: 30px 63px 200px;
+}
+
+
+fieldset:nth-of-type(1) > legend,
+fieldset:nth-of-type(2) > legend,
+fieldset:nth-of-type(3) > legend,
+fieldset:nth-of-type(4) > legend {
+  font-size: 18px;
+
+  text-decoration: underline;
+  font-weight: bold;
+  
+  
+  
+
+}
+.Estudios {
+
+  background-color:pink;
+  
+  font-weight: bold;
+  width: 700px;
+  height: 40px;
+  border-color: black;
+  box-shadow: 30px 63px 200px;
+}
+
+.idioma {
+
+  background-color:powderblue;
+  font-weight: bold;
+  width: 700px;
+  height: 40px;
+  border-color: black;
+  box-shadow: 30px 63px 200px;
+  
+  
+}
+
+.botones {
+
+  background-color:gray;
+  font-weight: bold;
+  width: 700px;
+  height: 40px;
+  border-color: black;
+}
+
+.bot {
+  
+  color:black;
+  padding: 10px 28px;
+  cursor: pointer;
+  border-radius: 3px;
+  
+
+}
+.color {
+  background-color: green;
+ }
+ .boto {
+ 
+  color:black;
+  padding: 10px 28px;
+  cursor: pointer;
+  border-radius: 3px;
+  
+
+}
+.colorboto {
+  background-color:red;
+ }
+
+
+ .tresd {
+
+
+  box-shadow: 20px 33px 100px;
+
+
+
+
+ }
+
+
+ .h1 { 
+
+   font-family:'Times New Roman', Times, serif
+   text-align: center;
+   font-size: 100px;
+
+
+
+ }
+  
+
+  
+  
+  
+
+
+
+
+
+    
+
+
+  
+    
+  
+
+
+
+  
+
+    
+
+    
+
+  
+
+
+
+
+
+
+
+ 
+
+    
